@@ -20,5 +20,5 @@ FROM
 GROUP BY
      order_id
 
--- MySql добавить order_code в GROUP BY автоматически и запрос выполнится
--- MS SQL Server не поймет группировать order_code или нет и выдаст ошибку
+-- MySql добавит order_code в GROUP BY автоматически и запрос выполнится
+-- друге могут не понять надо ли группировать order_code и выдаст ошибку
